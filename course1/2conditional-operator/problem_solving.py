@@ -1,5 +1,5 @@
 word = input()
-if word == "Python" :
+if word == "Python":
     print("ДА")
 else:
     print("НЕТ")
