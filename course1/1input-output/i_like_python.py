@@ -1,1 +1,1 @@
-print("I", "like", "Python", sep='***')
+print("I", "like", "Python", sep="***")

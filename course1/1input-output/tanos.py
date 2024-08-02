@@ -1,3 +1,3 @@
-    people = int(input())
+people = int(input())
 
-    print(people - (people // 2))
+print(people - (people // 2))
