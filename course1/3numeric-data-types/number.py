@@ -1,12 +1,12 @@
 num = int(input())
 
-first = num // 100
-second = (num // 10) % 10
-last = num % 10
+a = num // 100
+b = (num // 10) % 10
+c = num % 10
 
-mid = first + second + last - max(first, second, last) - min(first, second, last)
+mid = a + b + c - max(a, b, c) - min(a, b, c)
 
-if max(first, second, last) - min(first, second, last) == mid:
+if max(a, b, c) - min(a, b, c) == mid:
     print("Число интересное")
 else:
     print("Число неинтересное")
