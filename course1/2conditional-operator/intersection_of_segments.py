@@ -25,4 +25,4 @@ elif a2 < b2 == a1 < b1:
 elif a2 < a1 < b1 == b2:
     print(a1, b1)
 elif a2 < a1 < b1 < b2:
-    print(a1, b1)
+    (print(a1, b1))
